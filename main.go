@@ -13,7 +13,7 @@ func main() {
 	var port_range uint
 	open_ports := 0
 	ip := flag.String("i", "", "Target IP to scan")
-	flag.UintVar(&port_range, "p", 100, "Port range")
+	flag.UintVar(&port_range, "p", 1000, "Port range")
 	flag.Parse()
 	if len(os.Args) < 3 {
 		flag.PrintDefaults()
