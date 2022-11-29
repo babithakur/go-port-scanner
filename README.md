@@ -13,4 +13,4 @@ $ go run main.go -i 192.168.1.95 -p 2000
 ## Note:
 - By default it scans top 1000 TCP ports.
 
-- You need to have go installed in your system
+- You need to have go installed in your system.
